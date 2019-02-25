@@ -1,5 +1,5 @@
 
-puts "hi, welcome to my awsome shope"
+puts "Hi, welcome to my awesome shop"
 puts "how many stickers you want !!"
 q = gets.chomp.to_i 
 
@@ -20,4 +20,4 @@ def calculate_price(q)
 end 
 
 
-puts " you ordered #{q} stickers and the total is #{calculate_price(q)}"
+puts "You ordered #{q} stickers and the total is #{calculate_price(q)}"
